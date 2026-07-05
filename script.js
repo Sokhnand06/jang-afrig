@@ -36,6 +36,8 @@ for (const nom of pays) {
 console.log(`Pays africain : ${nom}`);
 }
 console.log(`Il y a ${pays.length} pays dans la liste.`);
+console.table(pays);
+console.log(choisirAuHasard(pays));
 
 // 1.ConVertisseur FCFA-->EUR
 function fcfaVersEuro(montant) {
